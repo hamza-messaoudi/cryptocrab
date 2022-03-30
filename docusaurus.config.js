@@ -93,13 +93,14 @@ const customFields = {
 const config = {
   title: 'AgileTs',
   tagline: 'AgileTs is a global, flexible, spacy State and Logic Library',
-  url: customFields.domain,
+  url: 'https://hamza-messaoudi.github.io',
   baseUrlIssueBanner: false,
-  baseUrl: '/',
+  baseUrl: '/cryptocrab/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
-  organizationName: 'AgileTs',
-  projectName: 'https://github.com/agile-ts/agile/',
+  organizationName: 'Crypto Crab',
+  trailingSlash: false,
+  projectName: 'cryptocrab',
   themes: ['@docusaurus/theme-live-codeblock'],
   scripts: [{ src: 'https://snack.expo.io/embed.js', async: true }], // https://github.com/expo/snack/blob/main/docs/embedding-snacks.md
   plugins: [
