@@ -21,15 +21,13 @@ const domain = 'https://agile-ts.org';
 const npmOrgUrl = 'https://www.npmjs.com/package/@agile-ts';
 
 const customFields = {
-  copyright: `Made with  💜 by <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/DevBenno">BennoDev</a> and <a target="_blank" rel="noopener noreferrer" href="https://github.com/agile-ts/agile/graphs/contributors">these awesome people</a>`,
+  copyright: `Made with  💜`,
   meta: {
-    title: 'An atom based state manager for JavaScript apps.',
+    title: 'A simple crypto learning platform.',
     image: '/img/meta.png',
     description:
-      'An atom based global State and Logic Library implemented in Typescript, ' +
-      'offering a reimagined API that focuses on developer experience. ' +
-      'AgileTs is a more straightforward alternative to Redux ' +
-      'and allows you to easily manage your application States in React, Vue and plain Javascript.',
+      'A simple crypto learning platform,' +
+      'offering easy to follow guides for people without technical background. ',
     color: '#6c69a0',
     keywords: [
       'state management',
@@ -91,14 +89,14 @@ const customFields = {
 };
 
 const config = {
-  title: 'AgileTs',
-  tagline: 'AgileTs is a global, flexible, spacy State and Logic Library',
+  title: 'CryptoCrab',
+  tagline: 'CryptoCrab is a simple crypto learning platform.',
   url: customFields.domain,
   baseUrlIssueBanner: false,
   baseUrl: '/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
-  organizationName: 'AgileTs',
+  organizationName: 'CryptoCrab',
   projectName: 'https://github.com/agile-ts/agile/',
   themes: ['@docusaurus/theme-live-codeblock'],
   scripts: [{ src: 'https://snack.expo.io/embed.js', async: true }], // https://github.com/expo/snack/blob/main/docs/embedding-snacks.md
