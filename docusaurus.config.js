@@ -98,7 +98,7 @@ const config = {
   baseUrl: '/cryptocrab/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
-  organizationName: 'Crypto Crab',
+  organizationName: 'hamza-messaoudi',
   trailingSlash: false,
   projectName: 'cryptocrab',
   themes: ['@docusaurus/theme-live-codeblock'],
