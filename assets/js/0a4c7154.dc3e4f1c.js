@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkagile_docs=self.webpackChunkagile_docs||[]).push([[9610],{9975:function(l){l.exports=JSON.parse('{"allTagsPath":"/cryptocrab/blog/tags","slug":"/cryptocrab/blog/tags/hello","name":"hello","count":1,"permalink":"/cryptocrab/blog/tags/hello"}')}}]);
