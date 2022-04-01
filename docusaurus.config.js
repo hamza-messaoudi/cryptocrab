@@ -16,14 +16,14 @@ const {
 const { Event, useEvent } = require('@agile-ts/event');
 const { toast } = require('react-toastify');
 
-const githubOrgUrl = 'https://github.com/agile-ts';
+const githubOrgUrl = 'https://github.com/hamza-messaoudi/cryptocrab';
 const domain = 'https://agile-ts.org';
 const npmOrgUrl = 'https://www.npmjs.com/package/@agile-ts';
 
 const customFields = {
-  copyright: `Made with  💜 by <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/DevBenno">BennoDev</a> and <a target="_blank" rel="noopener noreferrer" href="https://github.com/agile-ts/agile/graphs/contributors">these awesome people</a>`,
+  copyright: `Made with  💜`,
   meta: {
-    title: 'An atom based state manager for JavaScript apps.',
+    title: 'A simple crypto learning platform.',
     image: '/img/meta.png',
     description:
       'An atom based global State and Logic Library implemented in Typescript, ' +
@@ -54,20 +54,20 @@ const customFields = {
   },
   domain,
   githubOrgUrl,
-  githubUrl: `${githubOrgUrl}/agile`,
+  githubUrl: `${githubOrgUrl}`,
   githubDocsUrl: `${githubOrgUrl}/documentation`,
   npmCoreUrl: `${npmOrgUrl}/core`,
   discordUrl: `https://discord.gg/T9GzreAwPH`,
   stackoverflowUrl: 'https://stackoverflow.com/questions/tagged/agile-ts',
-  twitterUrl: 'https://twitter.com/AgileFramework',
+  twitterUrl: 'https://twitter.com/CrybtoCrab',
   redditUrl: 'https://www.reddit.com/r/AgileTs/',
   version: '0.0.1',
   announcementBar: {
     id: 'announcement',
     content: [
       `❓ If you have any questions, don't hesitate to join our <a target="_blank" rel="noopener noreferrer" href="https://discord.gg/T9GzreAwPH">Community Discord</a> ️`,
-      `🎉 If you like AgileTs, give us a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/agile-ts/agile">GitHub</a>`,
-      `⏰ If you want to stay update to date, follow use on <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/AgileTypescript">Twitter</a>`,
+      `🎉 If you like CryptoCrab, give us a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/hamza-messaoudi/cryptocrab">GitHub</a>`,
+      `⏰ If you want to stay update to date, follow use on <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/CrybtoCrab">Twitter</a>`,
     ],
     random: false,
     interval: 100000,
@@ -91,8 +91,8 @@ const customFields = {
 };
 
 const config = {
-  title: 'AgileTs',
-  tagline: 'AgileTs is a global, flexible, spacy State and Logic Library',
+  title: 'CryptoCrab',
+  tagline: 'CryptoCrab is a simple crypto learning platform',
   url: 'https://hamza-messaoudi.github.io',
   baseUrlIssueBanner: false,
   baseUrl: '/cryptocrab/',

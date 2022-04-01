@@ -4,37 +4,37 @@ import Cards, { CardInterface } from './components/Cards';
 
 const cards: CardInterface[] = [
   {
-    title: 'Centralize',
+    title: 'NFTs',
     description:
-      'AgileTs allows you to easily manage all of your application logic and states outside of the UI-Components in a central place.',
+      'Learn everything about NFTs',
     to: 'docs/introduction#centralize',
     imagePath: 'img/pages/landing/software_engineer.svg',
   },
   {
-    title: 'Flexible',
+    title: 'Rust',
     description:
-      'AgileTs works with nearly any UI-Layer and isn’t bound to any specific workflow. Use it the way it suits you best.',
+      'The crab will teach you some Rust as well.',
     to: 'docs/introduction#flexible',
     imagePath: 'img/pages/landing/teaching.svg',
   },
   {
-    title: 'Easy to Use',
+    title: 'Easy to Follow',
     description:
-      'Learn the powerful tools of AgileTs in a short amount of time.',
+      'You don’t need a technical background to follow the Crab. ',
     to: 'docs/introduction#easy-to-use',
     imagePath: 'img/pages/landing/science.svg',
   },
   {
-    title: 'Well Tested',
+    title: 'DeFi',
     description:
-      'AgileTs has over 600 jest tests to ensure everything works as expected.',
+      'Learn how to use DeFi protocols to earn some passive income.',
     to: 'https://coveralls.io/github/agile-ts/agile?branch=master',
     imagePath: 'img/pages/landing/engineer.svg',
   },
   {
-    title: 'Typescript',
+    title: 'Security',
     description:
-      'AgileTs is almost 100% typesafe and provides type inference for any complex structure.',
+      'Star with making a hardware wallet to keep your money safe.',
     to: 'docs/introduction#typescript',
     imagePath: 'img/pages/landing/typescript.svg',
   },

@@ -17,8 +17,8 @@ MY_STATE.set("Frank"); // Update State value
 const MY_STATE = createState("Jeff"); // <-
 MY_STATE.set("Frank"); // Update State value
     `,
-    title: 'Create State',
-    description: 'Instantiate a global State with a single line of code.',
+    title: 'Create a wallet',
+    description: 'Learn how to secure your funds in a hardware wallet.',
     icon: 'zap',
   },
   {
@@ -30,8 +30,8 @@ const myState = useAgile(MY_STATE);
 // Dynamically bind State to UI-Components for reactivity
 const myState = useAgile(MY_STATE);
     `,
-    title: 'Subscribe UI-Component',
-    description: 'Dynamically bind State to UI-Components for reactivity.',
+    title: 'Mint your own NFTs',
+    description: 'Learn how to mint an NFT and let it live forever on the chain.',
     icon: 'repeat',
   },
   {
@@ -42,8 +42,8 @@ MY_STATE.persist();
 // Permanently store State in the appropriate local Storage
 MY_STATE.persist();
     `,
-    title: 'Persist State',
-    description: 'Permanently store State in the appropriate local Storage.',
+    title: 'Make some Trades',
+    description: 'Learn how to research crypto projects and invest early on.',
     icon: 'server',
   },
   {
@@ -56,8 +56,8 @@ USERS.collect({id: 1, name: "Jeff"}, ['teamA']);
 const USERS = createCollection(); // <-
 USERS.collect({id: 1, name: "Jeff"}, ['teamA']);
     `,
-    title: 'Collection',
-    description: 'Easily create a dynamic and reactive set of States.',
+    title: 'Rust',
+    description: 'Crab(b) loves Rust more than you think.',
     icon: 'users',
   },
   {
@@ -72,8 +72,8 @@ const IS_AUTH = createComputed(() => {
    return AUTH_TOKEN.exists && EXPIRATION_TIME.value > 0;
 });
     `,
-    title: 'Computed State',
-    description: 'Compute State depending on other States.',
+    title: 'DeFi',
+    description: 'Understand DeFi protocols to make some passive income.',
     icon: 'edit',
   },
 ];
@@ -83,12 +83,11 @@ const StraightforwardView: React.FC = () => {
     <div className={styles.Container}>
       <div className={styles.Content}>
         <div className={styles.HeaderContainer}>
-          <h3 className={styles.Tagline}>Why choose us?</h3>
+          <h3 className={styles.Tagline}>Why follow the Crab?</h3>
           <h1 className={styles.Title}>Straightforward</h1>
           <Spacer height={20} />
           <p className={styles.Description}>
-            AgileTs saves you the hassle of creating boilerplate code and offers
-            a powerful API that makes your life easier.
+            Crab(b) comes from a future where crypto went full mainstream and made all other forms of money obselete. Crab(b) is here to teach you his ways.
           </p>
         </div>
         <Spacer height={60} />
